@@ -1,0 +1,24 @@
+{
+  "input": "test@gmail.com",
+  "normalized": "test@gmail.com",
+  "local_part": "test",
+  "domain": "gmail.com",
+  "ascii_domain": "gmail.com",
+  "mode": "standard",
+  "verdict": "probably_deliverable",
+  "confidence": 0.98,
+  "scores": {
+    "syntax": 1.0,
+    "domain": 1.0,
+    "mail_server": 1.0,
+    "mailbox": 0.5,
+    "trust": 1.0
+  },
+  "warnings": [],
+  "suggestions": [],
+  "metadata": {
+    "validator": "MailProbe",
+    "version": "1.0.0",
+    "smtp_verification_is_definitive": false
+  }
+}
